@@ -4,7 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 
 class callbox extends StatefulWidget {
   late ColorScheme dync;
-  callbox({required this.dync, super.key});
+  callbox({required this.dync, Key? key}) : super(key: key);
 
   @override
   State<callbox> createState() => _callboxState();
@@ -29,11 +29,12 @@ class _callboxState extends State<callbox> {
                   Text(
                     "Hello \nAbilash",
                     style: TextStyle(
-                        color: widget.dync.background,
-                        fontSize: 50,
-                        fontWeight: FontWeight.bold),
+                      color: widget.dync.background,
+                      fontSize: 50,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                  Text("")
+                  Text(""),
                 ],
               ),
             ),
@@ -50,7 +51,7 @@ class _callboxState extends State<callbox> {
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Divider(
-            color: widget.dync.inversePrimary,
+            color: widget.dync.primary,
           ),
         ),
         SizedBox(
@@ -59,7 +60,7 @@ class _callboxState extends State<callbox> {
               itemCount: data.length,
               itemBuilder: (context, index) {
                 return Container(
-                  color: widget.dync.,
+                  color: widget.dync.secondary,
                   width: double.infinity,
                   child: Row(
                     children: [
@@ -77,14 +78,14 @@ class _callboxState extends State<callbox> {
                           ),
                           Container(
                             child: Text("Decline"),
-                          )
+                          ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 );
               }),
-        )
+        ),
       ],
     );
   }
@@ -98,5 +99,5 @@ List<String> data = [
   "Tamizh",
   "Tamizh",
   "Tamizh",
-  "Tamizh"
+  "Tamizh",
 ];
