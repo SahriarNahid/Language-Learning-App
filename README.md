@@ -1,17 +1,3 @@
-# Language Learning App using Flutter
-
-
-Welcome to our language learning app built with Flutter! This project aims to help users learn new languages in a fun and interactive way.
-
-## Features
-
-- **Interactive Lessons**: Engage in interactive language lessons designed to improve your speaking, listening, reading, and writing skills.
-- **Multiple Languages**: Learn multiple languages from a wide range of options.
-- **Progress Tracking**: Track your learning progress and achievements.
-- **Quiz and Challenges**: Test your knowledge with quizzes and language challenges.
-- **Community**: Connect with other learners and practice your language skills with native speakers.
-- **Instructor**: Connect with personel instructor via video call.
-
 
 ## Screenshots
 | Intro Screen                             | Login Screen                            | Home Screen                                     | Quiz Screen                            | Writing Screen                            | Translator Screen                                     |         Speaking Screen         |
@@ -23,27 +9,4 @@ Welcome to our language learning app built with Flutter! This project aims to he
 | ![Screenshot_20230924_091037](https://github.com/totallyalien/LangLingualApp/assets/97169836/f2e74bc7-e1e4-4571-a595-4d9c21f78a41)   | ![Screenshot_20230924_091044](https://github.com/totallyalien/LangLingualApp/assets/97169836/d671b3d9-780b-4cda-afc8-448940c519ba) | ![Screenshot_20230924_151707](https://github.com/totallyalien/LangLingualApp/assets/97169836/758c1328-62b3-4b58-90c8-f3147bea6ff2) | ![Screenshot_20230924_091251](https://github.com/totallyalien/LangLingualApp/assets/97169836/78337b2a-bb8b-47d0-b199-2ba8124fbb87) | ![Screenshot_20230923_021129](https://github.com/totallyalien/LangLingualApp/assets/97169836/96386cc7-733a-472c-9a1d-ec5ec0489f2f) | ![Screenshot_20230923_020835](https://github.com/totallyalien/LangLingualApp/assets/97169836/ae1f3037-f27a-46ce-a28c-71371818c545)|![Screenshot_20230924_155241](https://github.com/totallyalien/LangLingualApp/assets/97169836/d30574ea-f240-47b3-9404-9a1ce3acadf2)|
 
 
-
-
-
-## Installation
-
-To run this app locally, follow these steps:
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/totallyalien/Language-Learning-App
-   
-## Contributions
-
-Contributions to this project are welcome! If you find any issues or want to add new features, feel free to open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to use this GitHub description as a starting point for your Language learning app project using Flutter and a dynamic UI. Adjust the features and libraries used to suit your specific implementation. Happy coding!
 
